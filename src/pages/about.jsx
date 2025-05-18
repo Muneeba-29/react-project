@@ -1,6 +1,6 @@
 import React from "react";
 
-function About() {
+function About(){
     return (
         <div className="min-h-screen w-full flex items-center justify-center">
             <div className=" w-[90%] md:w-[80%] border border-purple-300 shadow-lg rounded-xl p-8 flex flex-col md:flex-row gap-8">
