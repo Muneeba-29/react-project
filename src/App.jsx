@@ -9,7 +9,7 @@ import Navbar from './component/navbar';
 
  function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/react-project'>
     <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
